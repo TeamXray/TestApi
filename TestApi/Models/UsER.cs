@@ -12,5 +12,6 @@ namespace TestApi.Models
         [Key]
         public int id { get; set; }
         public String name { get; set; }
+        public int MyProperty { get; set; }
     }
 }
